@@ -202,8 +202,8 @@ func SendMail(status string, transaction models.Transaction) {
 		var CONFIG_SMTP_HOST = "smtp.gmail.com"
 		var CONFIG_SMTP_PORT = 587
 		var CONFIG_SENDER_NAME = "DumbMerch <demo.dumbways@gmail.com>"
-		var CONFIG_AUTH_EMAIL = "baguswikananda124@gmail.com"
-		var CONFIG_AUTH_PASSWORD = "fapmderihjckvouo"
+		var CONFIG_AUTH_EMAIL = "your email"
+		var CONFIG_AUTH_PASSWORD = "password here"
 
 		var startDate = transaction.StartDate
 		var dueDate = transaction.DueDate
